@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		2C60BC1028154C4300C1DDD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC0F28154C4300C1DDD2 /* AppDelegate.swift */; };
 		2C60BC1228154C4300C1DDD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC1128154C4300C1DDD2 /* SceneDelegate.swift */; };
-		2C60BC1428154C4300C1DDD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC1328154C4300C1DDD2 /* ViewController.swift */; };
 		2C60BC1728154C4300C1DDD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60BC1528154C4300C1DDD2 /* Main.storyboard */; };
 		2C60BC1928154C4600C1DDD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C60BC1828154C4600C1DDD2 /* Assets.xcassets */; };
 		2C60BC1C28154C4600C1DDD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C60BC1A28154C4600C1DDD2 /* LaunchScreen.storyboard */; };
+		2C60BC2C2815502E00C1DDD2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC2B2815502E00C1DDD2 /* MainViewController.swift */; };
+		2C60BC2E281553C900C1DDD2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC2D281553C900C1DDD2 /* WebViewController.swift */; };
+		2C60BC30281554F600C1DDD2 /* ReferenceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC2F281554F600C1DDD2 /* ReferenceListViewController.swift */; };
+		2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */; };
 		545752E4E779B23DF4E24F39 /* Pods_iOS_Developer_Information.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCB64F15350A67A3E39E094 /* Pods_iOS_Developer_Information.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,11 +24,14 @@
 		2C60BC0C28154C4300C1DDD2 /* iOS-Developer-Information.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Developer-Information.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60BC0F28154C4300C1DDD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C60BC1128154C4300C1DDD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C60BC1328154C4300C1DDD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2C60BC1628154C4300C1DDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C60BC1828154C4600C1DDD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C60BC1B28154C4600C1DDD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C60BC1D28154C4600C1DDD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C60BC2B2815502E00C1DDD2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2C60BC2D281553C900C1DDD2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		2C60BC2F281554F600C1DDD2 /* ReferenceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceListViewController.swift; sourceTree = "<group>"; };
+		2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroLabelTableViewCell.swift; sourceTree = "<group>"; };
 		C9B95F117AEB33703A8E3599 /* Pods-iOS-Developer-Information.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.release.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.release.xcconfig"; sourceTree = "<group>"; };
 		CFFB8594E5035CFD988007A4 /* Pods-iOS-Developer-Information.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -109,8 +115,11 @@
 		2C60BC2628154D9A00C1DDD2 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2C60BC2828154F6F00C1DDD2 /* Cell */,
 				2C60BC1528154C4300C1DDD2 /* Main.storyboard */,
-				2C60BC1328154C4300C1DDD2 /* ViewController.swift */,
+				2C60BC2B2815502E00C1DDD2 /* MainViewController.swift */,
+				2C60BC2F281554F600C1DDD2 /* ReferenceListViewController.swift */,
+				2C60BC2D281553C900C1DDD2 /* WebViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -120,6 +129,14 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2C60BC2828154F6F00C1DDD2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BDC04F447049A8504EAD6356 /* Pods */ = {
@@ -246,9 +263,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C60BC1428154C4300C1DDD2 /* ViewController.swift in Sources */,
 				2C60BC1028154C4300C1DDD2 /* AppDelegate.swift in Sources */,
+				2C60BC30281554F600C1DDD2 /* ReferenceListViewController.swift in Sources */,
 				2C60BC1228154C4300C1DDD2 /* SceneDelegate.swift in Sources */,
+				2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */,
+				2C60BC2E281553C900C1DDD2 /* WebViewController.swift in Sources */,
+				2C60BC2C2815502E00C1DDD2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
