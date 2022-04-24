@@ -71,15 +71,55 @@
 		2C60BC0E28154C4300C1DDD2 /* iOS-Developer-Information */ = {
 			isa = PBXGroup;
 			children = (
+				2C60BC2328154D7E00C1DDD2 /* Scene */,
+				2C60BC2428154D8200C1DDD2 /* Service */,
+				2C60BC2528154D8E00C1DDD2 /* ViewModel */,
+				2C60BC2628154D9A00C1DDD2 /* ViewController */,
+				2C60BC2728154DAA00C1DDD2 /* Model */,
 				2C60BC0F28154C4300C1DDD2 /* AppDelegate.swift */,
 				2C60BC1128154C4300C1DDD2 /* SceneDelegate.swift */,
-				2C60BC1328154C4300C1DDD2 /* ViewController.swift */,
-				2C60BC1528154C4300C1DDD2 /* Main.storyboard */,
 				2C60BC1828154C4600C1DDD2 /* Assets.xcassets */,
 				2C60BC1A28154C4600C1DDD2 /* LaunchScreen.storyboard */,
 				2C60BC1D28154C4600C1DDD2 /* Info.plist */,
 			);
 			path = "iOS-Developer-Information";
+			sourceTree = "<group>";
+		};
+		2C60BC2328154D7E00C1DDD2 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		2C60BC2428154D8200C1DDD2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		2C60BC2528154D8E00C1DDD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2C60BC2628154D9A00C1DDD2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2C60BC1528154C4300C1DDD2 /* Main.storyboard */,
+				2C60BC1328154C4300C1DDD2 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2C60BC2728154DAA00C1DDD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BDC04F447049A8504EAD6356 /* Pods */ = {
@@ -88,7 +128,6 @@
 				CFFB8594E5035CFD988007A4 /* Pods-iOS-Developer-Information.debug.xcconfig */,
 				C9B95F117AEB33703A8E3599 /* Pods-iOS-Developer-Information.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
