@@ -25,6 +25,7 @@ extension MainViewController: UITableViewDataSource {
         return 1
     }
     
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:

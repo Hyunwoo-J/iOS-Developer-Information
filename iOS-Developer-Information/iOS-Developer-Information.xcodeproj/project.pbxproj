@@ -16,6 +16,8 @@
 		2C60BC2E281553C900C1DDD2 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC2D281553C900C1DDD2 /* WebViewController.swift */; };
 		2C60BC30281554F600C1DDD2 /* ReferenceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC2F281554F600C1DDD2 /* ReferenceListViewController.swift */; };
 		2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */; };
+		2C60BC342816E9F300C1DDD2 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */; };
+		2C60BC362816EA6C00C1DDD2 /* ReferenceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */; };
 		545752E4E779B23DF4E24F39 /* Pods_iOS_Developer_Information.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCB64F15350A67A3E39E094 /* Pods_iOS_Developer_Information.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		2C60BC2D281553C900C1DDD2 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		2C60BC2F281554F600C1DDD2 /* ReferenceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceListViewController.swift; sourceTree = "<group>"; };
 		2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroLabelTableViewCell.swift; sourceTree = "<group>"; };
+		2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceListViewModel.swift; sourceTree = "<group>"; };
 		C9B95F117AEB33703A8E3599 /* Pods-iOS-Developer-Information.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.release.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.release.xcconfig"; sourceTree = "<group>"; };
 		CFFB8594E5035CFD988007A4 /* Pods-iOS-Developer-Information.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +112,8 @@
 		2C60BC2528154D8E00C1DDD2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */,
+				2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -265,9 +271,11 @@
 			files = (
 				2C60BC1028154C4300C1DDD2 /* AppDelegate.swift in Sources */,
 				2C60BC30281554F600C1DDD2 /* ReferenceListViewController.swift in Sources */,
+				2C60BC342816E9F300C1DDD2 /* ViewModelBindableType.swift in Sources */,
 				2C60BC1228154C4300C1DDD2 /* SceneDelegate.swift in Sources */,
 				2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */,
 				2C60BC2E281553C900C1DDD2 /* WebViewController.swift in Sources */,
+				2C60BC362816EA6C00C1DDD2 /* ReferenceListViewModel.swift in Sources */,
 				2C60BC2C2815502E00C1DDD2 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
