@@ -10,8 +10,8 @@ import Foundation
 
 /// 트랜지션 스타일
 enum TransitionStyle {
-    case root
-    case push
+    case root // 첫 번째 화면
+    case push // 새로운 화면을 네비게이션 스택에 추가
 }
 
 

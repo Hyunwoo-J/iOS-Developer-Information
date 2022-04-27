@@ -18,8 +18,12 @@
 		2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */; };
 		2C60BC342816E9F300C1DDD2 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */; };
 		2C60BC362816EA6C00C1DDD2 /* ReferenceListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */; };
-		2C60BC382816EB8400C1DDD2 /* TransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC372816EB8400C1DDD2 /* TransitionStyle.swift */; };
+		2C60BC382816EB8400C1DDD2 /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC372816EB8400C1DDD2 /* TransitionModel.swift */; };
 		2C60BC3A281989BC00C1DDD2 /* MainListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC39281989BC00C1DDD2 /* MainListViewModel.swift */; };
+		2C60BC3C28198AB600C1DDD2 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC3B28198AB600C1DDD2 /* Scene.swift */; };
+		2C60BC3E28198C4C00C1DDD2 /* WebViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC3D28198C4C00C1DDD2 /* WebViewModel.swift */; };
+		2C60BC4028198FA200C1DDD2 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC3F28198FA200C1DDD2 /* SceneCoordinator.swift */; };
+		2C60BC422819906100C1DDD2 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60BC412819906100C1DDD2 /* SceneCoordinatorType.swift */; };
 		545752E4E779B23DF4E24F39 /* Pods_iOS_Developer_Information.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCB64F15350A67A3E39E094 /* Pods_iOS_Developer_Information.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +42,12 @@
 		2C60BC312815559F00C1DDD2 /* IntroLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroLabelTableViewCell.swift; sourceTree = "<group>"; };
 		2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
 		2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceListViewModel.swift; sourceTree = "<group>"; };
-		2C60BC372816EB8400C1DDD2 /* TransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionStyle.swift; sourceTree = "<group>"; };
+		2C60BC372816EB8400C1DDD2 /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
 		2C60BC39281989BC00C1DDD2 /* MainListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewModel.swift; sourceTree = "<group>"; };
+		2C60BC3B28198AB600C1DDD2 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		2C60BC3D28198C4C00C1DDD2 /* WebViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewModel.swift; sourceTree = "<group>"; };
+		2C60BC3F28198FA200C1DDD2 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
+		2C60BC412819906100C1DDD2 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		C9B95F117AEB33703A8E3599 /* Pods-iOS-Developer-Information.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.release.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.release.xcconfig"; sourceTree = "<group>"; };
 		CFFB8594E5035CFD988007A4 /* Pods-iOS-Developer-Information.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Developer-Information.debug.xcconfig"; path = "Target Support Files/Pods-iOS-Developer-Information/Pods-iOS-Developer-Information.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,7 +110,10 @@
 		2C60BC2328154D7E00C1DDD2 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				2C60BC372816EB8400C1DDD2 /* TransitionStyle.swift */,
+				2C60BC372816EB8400C1DDD2 /* TransitionModel.swift */,
+				2C60BC3B28198AB600C1DDD2 /* Scene.swift */,
+				2C60BC3F28198FA200C1DDD2 /* SceneCoordinator.swift */,
+				2C60BC412819906100C1DDD2 /* SceneCoordinatorType.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -119,6 +130,7 @@
 			children = (
 				2C60BC39281989BC00C1DDD2 /* MainListViewModel.swift */,
 				2C60BC352816EA6C00C1DDD2 /* ReferenceListViewModel.swift */,
+				2C60BC3D28198C4C00C1DDD2 /* WebViewModel.swift */,
 				2C60BC332816E9F300C1DDD2 /* ViewModelBindableType.swift */,
 			);
 			path = ViewModel;
@@ -276,15 +288,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C60BC1028154C4300C1DDD2 /* AppDelegate.swift in Sources */,
-				2C60BC382816EB8400C1DDD2 /* TransitionStyle.swift in Sources */,
+				2C60BC422819906100C1DDD2 /* SceneCoordinatorType.swift in Sources */,
+				2C60BC382816EB8400C1DDD2 /* TransitionModel.swift in Sources */,
 				2C60BC30281554F600C1DDD2 /* ReferenceListViewController.swift in Sources */,
 				2C60BC342816E9F300C1DDD2 /* ViewModelBindableType.swift in Sources */,
 				2C60BC1228154C4300C1DDD2 /* SceneDelegate.swift in Sources */,
 				2C60BC322815559F00C1DDD2 /* IntroLabelTableViewCell.swift in Sources */,
 				2C60BC2E281553C900C1DDD2 /* WebViewController.swift in Sources */,
+				2C60BC3E28198C4C00C1DDD2 /* WebViewModel.swift in Sources */,
 				2C60BC362816EA6C00C1DDD2 /* ReferenceListViewModel.swift in Sources */,
 				2C60BC2C2815502E00C1DDD2 /* MainListViewController.swift in Sources */,
 				2C60BC3A281989BC00C1DDD2 /* MainListViewModel.swift in Sources */,
+				2C60BC3C28198AB600C1DDD2 /* Scene.swift in Sources */,
+				2C60BC4028198FA200C1DDD2 /* SceneCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
