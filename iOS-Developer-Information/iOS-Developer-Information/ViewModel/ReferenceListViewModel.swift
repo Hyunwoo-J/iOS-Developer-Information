@@ -8,6 +8,7 @@
 import Foundation
 
 
+/// 레퍼런스 목록 화면에서 사용
 class ReferenceListViewModel {
     
 }

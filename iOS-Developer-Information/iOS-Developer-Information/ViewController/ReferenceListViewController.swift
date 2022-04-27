@@ -9,7 +9,7 @@ import UIKit
 
 
 /// 레퍼런스 목록 화면
-class ReferenceListViewController: UIViewController {
+class ReferenceListViewController: UIViewController, ViewModelBindableType {
 
     var viewModel: ReferenceListViewModel!
     

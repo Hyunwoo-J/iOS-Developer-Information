@@ -9,8 +9,16 @@ import UIKit
 
 
 /// 웹 화면
-class WebViewController: UIViewController {
+class WebViewController: UIViewController, ViewModelBindableType {
 
+    var viewModel: WebViewModel!
+    
+    
+    func bindViewModel() {
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

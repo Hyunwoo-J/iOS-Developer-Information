@@ -9,8 +9,15 @@ import UIKit
 
 
 /// 메인 화면
-class MainViewController: UIViewController {
+class MainListViewController: UIViewController, ViewModelBindableType {
 
+    var viewModel: MainListViewModel!
+    
+    
+    func bindViewModel() {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -19,7 +26,7 @@ class MainViewController: UIViewController {
 
 
 
-extension MainViewController: UITableViewDataSource {
+extension MainListViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
